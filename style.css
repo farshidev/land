@@ -16,7 +16,7 @@ body {
 }
 
 button { 
- padding: 0 20px;
+  padding: 5px 20px;
   background-color:#f1c40f;
   border-radius: 2%;
   font-size: 1.4rem;
