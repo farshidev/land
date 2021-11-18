@@ -91,3 +91,32 @@ a{
     margin-right: 20px;
     color: black;
 }
+
+.card-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+.card h3 {
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+
+.card button {
+    margin: 30px 0;
+}
