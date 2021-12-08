@@ -64,6 +64,18 @@ header {
    
 }
 
+#changingh {
+    animation-name: chch;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes chch {
+    0%{color: black;}
+  35%  {color: purple;}
+  60%  {color: blue;}
+}
 
  section { 
     width: 100%;
