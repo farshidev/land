@@ -48,6 +48,7 @@ header {
     top: 0;
     background-color: #eee;
     width: 100%;
+    border-bottom: 12px solid rgba(10, 110, 200, 0.1);
 
 }
 
