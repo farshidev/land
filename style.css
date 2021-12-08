@@ -36,18 +36,22 @@ button {
     margin-bottom: 15px;
 }
 .cont {
-    
+    position: relative;
 }
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
-   position: fixed;
+    margin-bottom: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
     background-color: #eee;
     width: 100%;
 
 }
+
+
 
 
 #hero{ 
@@ -59,22 +63,32 @@ header {
    margin-bottom: 45px;
    
 }
-.container {
+/* .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    height: 28vh;
-  }
+    height: 250px;
+  } */
 
-section { 
+/* section { 
     width: 100%;
     margin-bottom: 35px;
-}
+} */
 
 h2{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 15px;
+}
+
+#hero {
+    margin-top: 200px;
+}
+@media (min-width:720px) {
+    #hero{
+            margin-top: 100px;
+    }
+
 }
 
 p {
@@ -89,12 +103,15 @@ nav {
     margin-top: 10px;
     
 }
+
+
 img{
     width: 80vw;
     height: 100%;
     margin: 0 auto;
     margin-top: 20px;
 }
+
 
 .icon { 
     color: orange;
@@ -117,6 +134,10 @@ li {
      align-items: center;
      
 }
+
+
+
+
 
 .card {
     width: 70vw;
@@ -170,5 +191,132 @@ footer {
     
 }
 
+  
+@media (min-width:720px) {
+    .foot {
+        margin-top: 60px;
+        width: 50%;
+    }
+}
 
   
+@media (min-width:720px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 20px;
+    }
+    nav ul li {
+      
+        margin-right: 50px;
+    }
+    img{
+        width: 15vw;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+    .grid {
+        display: flex;
+        
+        
+    }
+        #features .desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 125px;
+        width: 80vw;
+        padding: 5px;
+        }
+        
+    #features {
+        margin-top: 30px;
+      }
+      
+      #features .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 20vw;
+        color: darkorange;
+      }
+      
+
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      
+
+    h2{
+        text-align: left;
+        font-size: 24px;
+     
+    }
+    
+    p {
+         text-align: left;
+         font-size: 16px;
+    }
+   
+}
+
+
+
+
+@media (min-width:720px) {
+
+
+
+    .card-container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+   }
+
+   .card {
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.card h3 {
+    padding: 14px;
+    font-size: 1.5rem;
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.card button {
+    margin: 30px 0;
+}
+
+}
+
+
+#email{
+
+    max-width: 300px;
+}
